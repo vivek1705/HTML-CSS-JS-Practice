@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Student Details Form</h1>
+        <form action="#" method="post">
+            
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="fullName" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="nationality">Nationality:</label>
+                <input type="text" name="nationality" id="nationality" required>
+
+                <label for="address">Address:</label>
+                <textarea name="address" id="address" rows="4" cols="50" required></textarea>
+            </f>
+
+            <!-- Contact Information -->
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" required>
+
+                <label for="emergencyContact">Emergency Contact Information:</label>
+                <input type="text" name="emergencyContact" id="emergencyContact" required>
+            </fieldset>
+
+            <!-- Educational Background -->
+            <fieldset>
+                <legend>Educational Background</legend>
+                <label for="prevSchool">Previous School or College:</label>
+                <input type="text" name="prevSchool" id="prevSchool" required>
+
+                <label for="graduationYear">Graduation Year:</label>
+                <input type="text" name="graduationYear" id="graduationYear" required>
+
+                <label for="gpa">GPA or Grade:</label>
+                <input type="text" name="gpa" id="gpa" required>
+            </fieldset>
+
+            <!-- Parent/Guardian Information -->
+            <fieldset>
+                <legend>Parent/Guardian Information</legend>
+                <label for="parentName">Parent/Guardian Name:</label>
+                <input type="text" name="parentName" id="parentName" required>
+
+                <label for="relationship">Relationship:</label>
+                <input type="text" name="relationship" id="relationship" required>
+
+                <label for="parentContact">Contact Information:</label>
+                <input type="tel" name="parentContact" id="parentContact" required>
+            </fieldset>
+
+            <!-- Additional Information -->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="aadhar">Aadhar Information:</label>
+                <input type="text" name="aadhar" id="aadhar" required>
+
+                <label for="panCard">PAN Card Details:</label>
+                <input type="text" name="panCard" id="panCard" required>
+            </fieldset>
+
+            <!-- Button -->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+
+</html>

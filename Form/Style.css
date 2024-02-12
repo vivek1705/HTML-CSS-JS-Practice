@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width:100%;
+    padding: 8px;
+    margin: 0 20px 10px 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #04a3ff;
+    color: #fff;
+    font-size: 20px;
+    width: fit-content;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: red;
+    border-style:ridge;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    fieldset {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 6px;
+    }
+}

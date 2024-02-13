@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Details</title>
+</head>
+<body>
+    <h1>Form Details</h1>
+    <ul>
+        <% formData.forEach(data => { %>
+            <li>Name: <%= data.name %></li>
+            <li>Email: <%= data.email %></li>
+            <li>Message: <%= data.message %></li>
+            <hr>
+        <% }) %>
+    </ul>
+</body>
+</html>

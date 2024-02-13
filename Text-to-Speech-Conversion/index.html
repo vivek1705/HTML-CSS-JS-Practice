@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-to-Speech Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+    <h1>Text-to-Speech</h1>
+
+    <textarea id="textToSpeak" placeholder="Enter text to convert to speech"></textarea>
+    
+    <select id="voiceSelect">
+      <option value="en-US">Male</option>
+      <option value="en-US-Wavenet-F">Female</option>
+    </select>
+
+    <button onclick="convertToSpeech()">Convert to Speech</button>
+  </div>
+
+  <script src="text_to_speech.js"></script>
+</body>
+</html>
